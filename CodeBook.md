@@ -3,6 +3,7 @@
 This code book summarizes the resulting data fields in `final_tidy_set.txt`.
 
 Original dataset: _https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip_
+
 Original description: _http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones_
 
 ## Identifiers
