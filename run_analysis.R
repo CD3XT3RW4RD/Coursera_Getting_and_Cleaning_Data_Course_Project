@@ -103,6 +103,7 @@ print("setting descriptive column names done")
 ##Generating final tidy set by grouping and putting result to file
 final_tidy_set <- mean_and_std_set ##initialize final set
 final_tidy_set <- final_tidy_set %>% group_by(Activity,Subject) %>% summarize_all(funs(mean)) ##6 activity x 30 subject , dimensions will be 180 x 68 (variables) Grouping by activity, then subject
+write.table(final_tidy_set,"./final_tidy_set.txt", row.names = F)
 print("final tidy set created and backed up")
 print("final tidy data set:")
 final_tidy_set
